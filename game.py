@@ -64,7 +64,7 @@ def main():
     # Initialize a console
     # tcod.console.Console(screen_width, screen_height)
     con = tcod.console.Console(screen_width, screen_height)
-    panel = tcod.console_new(screen_width, panel_height)
+    panel = tcod.console.Console(screen_width, panel_height)
     # con = tcod.console_new(screen_width, screen_height)
 
     game_map = GameMap(map_width, map_height)
